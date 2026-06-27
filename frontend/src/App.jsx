@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
-const BASE_URL = "http://127.0.0.1:8000";
+// 🚀 UPDATED: Pointing to your live production Render backend
+const BASE_URL = "https://vision-food-backend.onrender.com";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('diet');
@@ -60,8 +61,8 @@ export default function App() {
     <div className="app-wrapper">
       <header className="app-header">
         <div className="header-container">
-  <h1 className="logo">VISION<span>FIT</span></h1>
-</div>
+          <h1 className="logo">VISION<span>FIT</span></h1>
+        </div>
       </header>
 
       <main className="app-main">
